@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "starer-kit",
     "description": "This project is really great.",
-    "slug": "mobile",
+    "slug": "starer-kit",
     "privacy": "public",
     "sdkVersion": "25.0.0",
     "platforms": ["ios", "android"],
