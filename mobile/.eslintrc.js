@@ -10,6 +10,7 @@ module.exports = {
   plugins: ['react', 'prettier'],
   rules: {
     'import/prefer-default-export': ['off'],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_*" }],
     'prettier/prettier': [
       'error',
       {
@@ -19,6 +20,7 @@ module.exports = {
       },
     ],
     'react/display-name': ['off'],
+    'react/prop-types': ['off'],
     'react/jsx-filename-extension': ['off'],
   },
   env: {
