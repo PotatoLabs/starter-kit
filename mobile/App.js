@@ -1,17 +1,13 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Provider } from 'react-redux'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})
+import RootView from './src/views'
+import redux from './src/redux'
 
-export default () => (
-  <View style={styles.container}>
-    <Text>Open up App.js to start working on your app!</Text>
-  </View>
+const App = () => (
+  <Provider store={redux}>
+    <RootView />
+  </Provider>
 )
+
+export default App
