@@ -9,6 +9,7 @@ module.exports = {
   ],
   plugins: ['react', 'prettier'],
   rules: {
+    'func-names': ['off'],
     'import/prefer-default-export': ['off'],
     'no-unused-vars': ['error', { argsIgnorePattern: '^_*' }],
     'prettier/prettier': [
